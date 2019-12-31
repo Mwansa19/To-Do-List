@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To Do List</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div id="main-container">
+            <h1>WORK TO-DOS</h1>
+
+            <div class="row">
+                <div class="helpText col-12">
+                    <P id="first">Enter text into the input field to add items to your list(max. 28 characters)</P>
+                    <p id="second">Click the item to mark it as complete.</p>
+                    <p id="third">Click the "X" to remove the item from the list</p>
+
+                </div>
+                
+            </div>
+            
+           <div class="row">
+                <div class="col-12">
+                    <input type="text" placeholder="New item...." id="userInput"
+                    maxlength="27">
+                    <button id="enter"><i class="fas fa-pencil-alt"></i></button>
+                </div>
+
+           </div>
+           <!-- Empty list -->
+           <div class="row">
+               <div class="listItems col-12">
+                   <ul class="col-12 offset-0 col-sm-8 offset-sm-2"></ul>
+               </div>
+           </div>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>
